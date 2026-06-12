@@ -58,7 +58,10 @@ class WeeklyStatsCard extends StatelessWidget {
                       const SizedBox(width: 8),
                       Text(
                         '${s.correctCount}/${s.totalAttempts}',
-                        style: const TextStyle(color: Colors.white70, fontSize: 12),
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontSize: 12,
+                        ),
                       ),
                     ],
                   ),
